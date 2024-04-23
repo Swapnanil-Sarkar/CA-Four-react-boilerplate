@@ -1,0 +1,45 @@
+/* App.css */
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .header h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #888;
+  }
+  
+  /* Theme button styles */
+  .themeBtn {
+    background-color: #bbd2d1dc;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .themeBtn:hover {
+    background-color: #a7b5b4dc;
+  }
+  

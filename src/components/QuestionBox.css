@@ -1,0 +1,136 @@
+/* QuestionBox.css */
+
+/* Base styles for the question box */
+.question-box {
+    /* background-color: grey; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    width: max-content;
+    height: max-content;
+  }
+  
+  /* Hover effect: Enlarge the card on hover */
+  .question-box:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Question text style */
+  .question-box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .highlighted-question {
+    color: red;
+  }
+  
+
+  /* Options container */
+  .options-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Option button styles */
+  .option {
+    background-color: #b4bebdd8;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Hover effect: Darken the option button on hover */
+  .option:hover {
+    background-color: #a3acab;
+  }
+  
+  /* Highlight button styles */
+  .highlight-btn-container {
+    margin-top: 12px;
+    display: flex; /* Set container to flex */
+    gap: 8px; /* Add gap between buttons */
+  }
+  
+  .highlight-btn {
+    width: -webkit-fill-available;
+    background-color: #dc3c36e7;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  /* Hover effect: Darken the highlight button on hover */
+  .highlight-btn:hover {
+    background-color: #dc3b36;
+  }
+  
+  .light-theme .question-box {
+    background-color: #ffffba;
+    /* Other light theme styles... */
+  }
+  
+  /* Dark theme background color */
+  .dark-theme .question-box {
+    background-color: #333;
+  }
+
+  /* Result.css */
+
+/* Base styles for the result box */
+.result-box {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+  }
+  
+  /* Result box background colors */
+  .result-box.light-theme {
+    background-color: #ebffb4;
+  }
+  
+  .result-box.dark-theme {
+    background-color: #ba0fc9;
+  }
+  
+  /* Result text styles */
+  .result-box h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .result-box h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  /* Restart button styles */
+  .restart-btn {
+    background-color: #dc3c36e7;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Hover effect: Darken the restart button on hover */
+  .restart-btn:hover {
+    background-color: #dc3b36;
+  }
+  
