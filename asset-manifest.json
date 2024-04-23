@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CA-Four-react-boilerplate/static/css/main.996c552d.css",
+    "main.js": "/CA-Four-react-boilerplate/static/js/main.4029ad35.js",
+    "index.html": "/CA-Four-react-boilerplate/index.html",
+    "main.996c552d.css.map": "/CA-Four-react-boilerplate/static/css/main.996c552d.css.map",
+    "main.4029ad35.js.map": "/CA-Four-react-boilerplate/static/js/main.4029ad35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.996c552d.css",
+    "static/js/main.4029ad35.js"
+  ]
+}
