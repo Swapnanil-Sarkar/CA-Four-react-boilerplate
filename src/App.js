@@ -1,6 +1,6 @@
 // App.js
 import React, { useState, useEffect } from "react";
-import "./App.css"; // Import the corresponding CSS file
+import "./App.css";
 import QuestionBox from "./components/QuestionBox";
 
 function App() {

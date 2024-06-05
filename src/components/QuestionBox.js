@@ -1,9 +1,9 @@
 // QuestionBox.js
 
 import React, { useState } from "react";
-import questions from "../questions"; // Assuming you have a file named "questions.js"
+import questions from "../questions";
 import Result from "./Result";
-import "./QuestionBox.css"; // Import the corresponding CSS file
+import "./QuestionBox.css";
 
 export default function QuestionBox(props) {
   const { color, theme } = props; // Destructure the theme prop

@@ -1,6 +1,3 @@
-
-// Result.js
-
 import React from "react";
 import "./QuestionBox.css";
 
